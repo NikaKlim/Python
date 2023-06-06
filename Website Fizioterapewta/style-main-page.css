@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+#main-page{
+
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.18) 0%), url(images/fonpic.jpg);
+    background-color: rgba(28,111,164,0.5);
+    background-size: cover;
+    background-position: left;
+    border: none;
+    margin-top: 0;
+    border-top: 0.1px solid #c3e3f8;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: bottom;
+    padding-top: 20%;
+
+}
+
+.text-nazwanie{
+    color: black;
+    text-align: left;
+    vertical-align: center;
+    margin: 10px;
+    padding-top: 90px;
+    font-size: 70px;
+    font-family: OpenSans, "Roboto";
+    padding-left: 15px;
+
+
+}
+.linia{
+    border: 1px solid black;
+    width: 60%;
+    position: relative;
+    left: 35%;
+    transform: translate(-50%, 0);
+}
+
+
+
+
+
+.text-nazwanie1{
+    margin: 0px;
+    padding-top: 0px;
+    font-size: 30px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+}
+
+.text-opisanie{
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 10%;
+    text-align: left;
+    font-size: 17px;
+    color: rgba(0,0,0,0.8);
+
+}
+
+
+.button{
+    margin: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    text-align: left;
+    bottom: 0;
+    padding-left: 10px;
+
+
+
+
+}
+
+.button1{
+    background-color: #1c6fa4;
+    border: 1px solid #1c6fa4;
+    color: white;
+    font-size: 100%;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    margin-right: 5px;
+
+
+
+
+}
+.button2{
+    border: 1px solid white;
+    color: #1c6fa4;
+    background-color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    margin-left: 5px;
+
+
+}

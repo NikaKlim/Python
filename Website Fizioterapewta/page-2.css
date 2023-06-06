@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+#page-2{
+    background-color: white;
+    height: 100%;
+    margin-top: 0;
+}
+
+.block-oferta-ogolne{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    align-items: stretch;
+
+
+}
+
+.block-oferta{
+    display: inline-block;
+    flex-wrap: wrap;
+    position: relative;
+    min-width: 250px;
+    width: 25%;
+    height: 30%;
+    padding: 10px 10px 20px 10px;
+    background-color: linear-gradient(90deg, rgba(195,227,248,0) 0%, rgba(195,227,248,0.9) 0%);
+
+    margin-bottom: 10px;
+    margin: 0 10px 5 10px;
+}
+
+.block-oferta-img{
+    height:100%;
+    width:100%;
+}
+
+.block-oferta-text{
+    text-decoration: none;
+    color: black;
+    font-family: OpenSans, "Roboto";
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+#page-2 h1{
+    font-family: OpenSans, "Roboto";
+    color: black;
+    font-style: bold;
+    font-size: 40px;
+    text-align: center;
+    padding: 60px 0px 20px 0px;
+}
+
+.page-2-linia{
+    border: 1px solid black;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 20px;
+}
+
+.page-2-linia2{
+    border: 1px solid #1c6fa4;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    margin-top: 5px;
+    margin-bottom: 0;
+    transform: translate(-50%, 0);
+}
+
+.padding-page-2{
+    padding-bottom: 40px;
+}

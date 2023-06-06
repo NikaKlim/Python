@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+#end{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+    position: relative;
+    padding: 10px 0px 25px 0px;
+
+}
+
+.end-nazwanie{
+    padding-top: 20px;
+}
+
+.end-linia{
+    border: 0.1px solid #1c6fa4;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    margin-top: 5px;
+    transform: translate(-50%, 0);
+}

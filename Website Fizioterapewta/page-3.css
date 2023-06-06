@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+#page-3{
+    background: linear-gradient(90deg, rgba(3,61,65,0) 0%, rgba(3,61,65,0.6) 0%), url(images/kompindiwid.jpg);
+    background-color: rgba(28,111,164,0.5);
+    background-size: cover;
+    background-position: left;
+    height: 100%;
+    margin-top: 0;
+    padding-bottom: 50px;
+}
+
+#page-3 h1{
+    font-family: OpenSans, "Roboto";
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 60px 0px 25px 0px;
+}
+
+#page-3 h2{
+    font-family: OpenSans, "Roboto";
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px 0px 5px 0px;
+}
+
+.block-zalety{
+    display: flex;
+    direction: row;
+}
+.block-zalety-opis{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.block-zalety-conteiner{
+    background: linear-gradient(90deg, rgba(195,227,248,0) 0%, rgba(195,227,248,0.7) 0%);
+    border: 1px solid #c3e3f8;
+    width: 35%;
+    margin:0px 5px 0px 5px;
+    padding: 0px 10px 0px 10px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+
+}
+
+.block-zalety-button{
+    text-decoration: none;
+    text-align: center;
+    background-color: #1c6fa4;
+    color: white;
+    height: 40px;
+    margin-bottom: 5px;
+    padding-top: 6%;
+
+
+
+
+}
+.qaz{
+    flex-grow: 1;
+}
+
+.page-3-linia{
+    border: 1px solid #1c6fa4;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 5px;
+}
